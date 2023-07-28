@@ -12,11 +12,15 @@ import {Result} from "../result";
       <div class="">
         <img src="{{result.icon}}" alt="" class="px-2">
       </div>
-      <div class="grow">
+      <div class="grow score-title score-title-{{ result.category.toLowerCase() }}">
         <p class="px-4">{{result.category}}</p>
       </div>
       <div class="grow text-right">
-        <p class="px-4">{{result.score}}/100</p>
+        <p class="px-4 score-result">
+          <span class="score-value px-2">{{result.score}}</span>
+          <span class="score-total">/</span>
+          <span class="score-total px-2">100</span>
+        </p>
       </div>
     </div>
   `,

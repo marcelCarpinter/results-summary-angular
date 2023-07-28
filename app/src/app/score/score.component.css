@@ -24,3 +24,34 @@
   margin-bottom: 10px;
 }
 
+.score-title{
+  font-weight: 500;
+}
+
+.score-title-reaction{
+  color: #c16665;
+}
+
+.score-title-memory{
+  color: #ffc14d;
+}
+
+.score-title-verbal{
+  color: #45ac91;
+}
+
+.score-title-visual{
+  color: #272c70;
+}
+
+.score-value{
+  color: #272a39;
+}
+
+.score-total{
+  color: #9f9fa1;
+}
+
+.score-result{
+  font-weight: 600;
+}
