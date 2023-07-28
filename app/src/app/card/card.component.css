@@ -1,0 +1,15 @@
+.shadow-card{
+  box-shadow: 4px 6px 5px 0px rgba(224,224,224,0.51);
+  -webkit-box-shadow: 4px 6px 5px 0px rgba(224,224,224,0.51);
+  -moz-box-shadow: 4px 6px 5px 0px rgba(224,224,224,0.51);
+}
+
+.card-container{
+  width: 50%;
+  max-height: 350px;
+  border-radius: 2.5rem;
+}
+
+.column{
+  max-height: 100%;
+}

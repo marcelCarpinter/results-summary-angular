@@ -8,12 +8,12 @@ import {SummaryComponent} from "../summary/summary.component";
   standalone: true,
   imports: [CommonModule, ResultComponent, SummaryComponent],
   template: `
-    <div class="container mx-auto py-5 px-5 w-75">
+    <div class="mx-auto shadow-card card-container">
         <div class="d-flex flex-row">
-          <div class="w-50">
+          <div class="w-50 column">
             <app-result></app-result>
           </div>
-          <div class="w-50">
+          <div class="w-50 column">
             <app-summary></app-summary>
           </div>
         </div>

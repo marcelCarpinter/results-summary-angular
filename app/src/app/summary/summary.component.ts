@@ -8,7 +8,7 @@ import {Result} from "../result";
   standalone: true,
   imports: [CommonModule, ScoreComponent],
   template: `
-    <div class="py-4 px-5">
+    <div class="py-2 px-3">
       <div>
         <p class="title-summary">Summary</p>
       </div>

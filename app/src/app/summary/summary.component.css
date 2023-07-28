@@ -13,3 +13,7 @@
   font-weight: 500;
   border-radius: 24px;
 }
+
+.btn-result:hover{
+  background: linear-gradient(180deg, rgba(99,64,252,1) 0%, rgba(79,57,244,1) 35%, rgba(50,43,234,1) 100%);
+}
