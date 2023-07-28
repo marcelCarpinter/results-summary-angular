@@ -1,7 +1,6 @@
 .title-summary{
   color: #1d2033;
   padding: 2px;
-  text-align: center;
   width: 100%;
   font-size: 21px;
   line-height: 21px;
@@ -16,4 +15,16 @@
 
 .btn-result:hover{
   background: linear-gradient(180deg, rgba(99,64,252,1) 0%, rgba(79,57,244,1) 35%, rgba(50,43,234,1) 100%);
+}
+
+@media screen and (min-width: 469px){
+  .title-summary{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 468px){
+  .title-summary{
+    text-align: left;
+  }
 }
