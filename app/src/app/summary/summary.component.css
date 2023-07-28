@@ -6,3 +6,10 @@
   font-size: 21px;
   line-height: 21px;
 }
+
+.btn-result{
+  background-color: #303b59;
+  color: #FFF;
+  font-weight: 500;
+  border-radius: 24px;
+}

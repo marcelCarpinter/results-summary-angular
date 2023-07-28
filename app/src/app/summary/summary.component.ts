@@ -15,6 +15,9 @@ import {Result} from "../result";
       <div>
         <app-score *ngFor="let result of results" [result]="result" ></app-score>
       </div>
+      <div class="mt-5">
+        <button class="btn btn-result w-full">Continue</button>
+      </div>
     </div>
   `,
   styleUrls: ['./summary.component.css']
