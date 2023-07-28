@@ -1,0 +1,26 @@
+.text-right{
+  text-align: right;
+}
+
+.row-reaction{
+  background-color: #fff6f5;
+}
+
+.row-memory{
+  background-color: #fffbf2;
+}
+
+.row-verbal{
+  background-color: #f2fbfa;
+}
+
+.row-visual{
+  background-color: #f3f3fd;
+}
+
+.row-score{
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
