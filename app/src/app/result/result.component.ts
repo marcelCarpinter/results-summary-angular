@@ -15,7 +15,7 @@ import { CommonModule } from '@angular/common';
       <div>
         <div class="rounded-full bg-result-total circle mx-auto">
           <div class="circle-content">
-            <p class="title-result">76</p>
+            <p class="content-title-result">76</p>
             <p class="subtitle-result">of 100</p>
           </div>
         </div>

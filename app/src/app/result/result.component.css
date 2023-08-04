@@ -7,12 +7,21 @@
 }
 
 .title-result{
-  color: #fcfdff;
+  color: #beb0ff;
   padding: 2px;
   text-align: center;
   width: 100%;
   font-size: 25px;
   line-height: 25px;
+}
+
+.content-title-result{
+  color: #fcfdff;
+  padding: 2px;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .subtitle-result{
@@ -41,7 +50,7 @@
 }
 
 .overall-result{
-  font-size: 28px;
+  font-size: 24px;
   color: #fcfdff;
   text-align: center;
 }
